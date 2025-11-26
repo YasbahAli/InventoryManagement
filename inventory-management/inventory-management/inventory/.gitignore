@@ -1,0 +1,54 @@
+############################
+# Maven / Spring Boot
+############################
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+mvnw
+mvnw.cmd
+
+# Logs
+logs/
+*.log
+spring.log
+
+############################
+# IDE files
+############################
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse/STS
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans/
+.sts4-cache/
+
+############################
+# OS Files
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Build tools
+############################
+dist/
+build/
+nbbuild/
+nbdist/
+
+############################
+# Temp / Backup
+############################
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
